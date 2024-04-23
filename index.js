@@ -1,10 +1,10 @@
 //Biblioteca
 const express = require("express");
 const dotenv = require("dotenv");
-const TaskRouter = require("./src/routes/task.routes");
 const cors = require("cors");
 
 //Arquivo
+const TaskRouter = require("./src/routes/task.routes");
 const connectToDataBase = require("./src/database/mongoose.database");
 
 dotenv.config();
